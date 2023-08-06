@@ -1,0 +1,68 @@
+#cal{
+    background-color: rgb(14, 209, 206);
+    height: 400px;
+    width: 800px;
+    text-align: center;
+    border-radius: 4%;
+    margin-top: 100px;
+    margin-left: 300px;
+
+}
+h1{
+    color: blue;
+}
+#zak{
+    color: blueviolet;
+    text-decoration: solid;
+    font-size: large;
+    border: 4px rgb(213, 110, 8) solid;
+    border-radius: 4px;
+}
+#add{
+    color: blueviolet;
+    text-decoration: solid;
+    font-size: large;
+    border: 4px springgreen solid;
+    border-radius: 4px;
+
+}
+#minus{
+    color: blueviolet;
+    text-decoration: solid;
+    font-size: large;
+    border: 4px springgreen solid;
+    border-radius: 4px;
+
+}
+#multi{
+    color: blueviolet;
+    text-decoration: solid;
+    font-size: large;
+    border: 4px springgreen solid;
+    border-radius: 4px;
+
+}
+#devide{
+    color: blueviolet;
+    text-decoration: solid;
+    font-size: large;
+    border: 4px springgreen solid;
+    border-radius: 4px;
+
+}
+#per{
+    color: blueviolet;
+    text-decoration: solid;
+    font-size: large;
+    border: 4px springgreen solid;
+    border-radius: 4px;
+
+}
+#num1{
+    font-size: large;
+    border-radius: 6px;
+}
+#num2{
+    font-size: large;
+    border-radius: 6px;
+}

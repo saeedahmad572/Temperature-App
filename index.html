@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>Temperature App</h1>
+    <form onsubmit="usertemp(); return false;">
+        <label for="temp">Enter your Temp</label>
+        <input type="number" name="temp1" id="temp1" placeholder="Enter temp">
+        <input type="submit" value="check">
+    </form>
+    <h1 id="res"></h1>
+    <script>
+        function usertemp(){
+            let tempapp = document.querySelector("#temp1").value;
+            let cityname = prompt("Enter your city");
+            if (tempapp >= 90 && cityname == "Lahore" ){
+                document.querySelector("#res").innerHTML = `its hot today`
+            }
+            else if (tempapp >=40 && cityname == "Isb" ) {
+                document.querySelector("#res").innerHTML = `its normal today`
+            }
+            else if(tempapp <3 && cityname=="bahawalpur") {
+               document.querySelector("#res").innerHTML = "Its cold today"
+            }
+            else {
+                document.querySelector("#res").innerHTML = `its wrong value`
+            }
+
+        }
+    </script>
+</body>
+</html>
